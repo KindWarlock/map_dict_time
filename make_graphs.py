@@ -34,6 +34,6 @@ def main():
         plt.plot(items, measures)
         name_no_ext, _ = file.split('.')
         plt.savefig(f'./graphs/{name_no_ext}.png')
-        plt.show()
+        # plt.show()
 
 main()
