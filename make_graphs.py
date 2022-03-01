@@ -15,7 +15,7 @@ def read_file(file_name):
                 measures.append(int(file.readline()))
     type, _ = file_name.split('_')
     if type == 'dict':
-        items = np.arange(0, 10001, 10000 / num)
+        items = np.arange(0, 100001, 100000 / num)
     else:
         items = np.arange(0, 100000001, 100000000 / num)
     return measures, items
